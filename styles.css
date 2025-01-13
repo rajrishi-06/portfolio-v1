@@ -134,15 +134,18 @@ h3{text-align:center;margin:30px 0;color:#444}
 
   .main-content {
     background-color: #F5EFFF; /* Light background for contrast */
-    border-radius: 50px; /* Curved corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 30px;
-    margin-top: 20px; /* Space below navbar */
-    margin-bottom: 20px; /* Space above footer */
+    border-radius: 50px; /* Curved corners *//*Subtle shadow*/
+    padding-left: 30px;
+    padding-right:30px; /* Space above footer */
   }
   #hero {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    border-radius: 30px;
+    height: 100vh;
+  }
+  #hero .btn {
+    margin: 20px;
+    margin-left: 0;
+    margin-top: 0;
   }
   .underline {
     text-decoration: underline; /* Adds the underline effect */
@@ -150,5 +153,7 @@ h3{text-align:center;margin:30px 0;color:#444}
     text-decoration-thickness: 2px; /* Optional: Adjust thickness */
     text-underline-offset: 3px; /* Optional: Adds spacing between text and underline */
   }
-
-  
+  .icons {
+    height: 5rem;
+    margin: 5px;
+  }
